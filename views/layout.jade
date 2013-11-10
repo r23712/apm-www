@@ -1,7 +1,15 @@
 doctype 5
 html
   head
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+    script(type='text/javascript', src='//use.typekit.net/qdw4tkf.js')
+    script(type='text/javascript')
+        try{Typekit.load();}catch(e){}
   body
     block content
+  
+    script(rel='text/javascript', href='/javascript/bootstrap.min.js')
+    script(rel='text/javascript', src="https://code.jquery.com/jquery.js")

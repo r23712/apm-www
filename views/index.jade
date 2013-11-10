@@ -1,5 +1,30 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+
+  section#header
+    header
+      div.container
+        div.row
+          div.col-sm-12
+            div.col-sm-2.logo
+              img(src='images/logo.png')
+            div.col-sm-10.header-text
+              h1 Welcome to the APM community host.  
+              h1 Find your APM's easier and publish them faster.
+  section#content
+    main
+      div.container
+        div.row
+          div.col-sm-12.how-to-get-started
+            div.col-sm-6
+              h2 Ansible Pacakge Manager
+              div.how-to-get-started-content
+                p Any package can be install by using 
+                  code xxxxxxx
+                p Add your programs to this index by using 
+                  code xxxxxxx
+            div.col-sm-6
+              h2 Watch as we use it
+              div.how-to-get-started-content
+                iframe(width='540', height='295', src='//www.youtube.com/embed/WuiHuZq_cg4', frameborder='0', allowfullscreen)

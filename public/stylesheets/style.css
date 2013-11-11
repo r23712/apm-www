@@ -41,3 +41,44 @@
 .how-to-get-started-content {
   margin-top: 20px;
 }
+#footer {
+  margin:50px 0 25px;
+}
+#footer .container {
+  padding-right: 0;
+}
+.footer-wrapper {
+  border-top: 3px solid #f4f5f8;
+}
+#footer .col-sm-2 {
+  padding:0;
+}
+.footer-logo img {
+  margin-top: 25px;
+}
+.footer-links ul {
+  padding-left: 0;
+  float: left;
+  width: 100%;
+  list-style: none;
+}
+.footer-links ul li {
+  float: left;
+  padding: 0 10px;
+  margin: 36px 0 0;
+}
+.footer-wrapper .col-sm-6 {
+  width: 41.6%;
+  padding-right: 0;
+}
+.footer-credentials ul {
+  list-style: none;
+}
+.footer-credentials ul li p {
+  text-align: right;
+  margin-top: 36px;
+  color:#666;
+}
+.footer-credentials ul li p i {
+  color:#fe4451;
+}
